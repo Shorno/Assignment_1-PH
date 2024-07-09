@@ -558,4 +558,49 @@ footer{
     .current-target {
         padding: 1rem;
     }
+    .support-text{
+        display: flex;
+        width: 100%;
+    }
+
+    .input-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .support-input{
+        width: 80%;
+        margin: 0 auto;
+        height: 0.5rem;
+
+    }
+    .support-input::placeholder{
+        font-size: 10px;
+    }
+    .support-button{
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+    .support{
+        padding: 1rem;
+    }
+    .support-container{
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 4rem;
+        gap: 1rem;
+    }
+    footer{
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
 }
