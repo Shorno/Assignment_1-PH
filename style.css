@@ -14,6 +14,9 @@ ul {
 a {
     text-decoration: none;
 }
+a:hover {
+    cursor: pointer;
+}
 
 .container {
     max-width: 1280px;
@@ -302,6 +305,40 @@ iframe{
     text-decoration-line: underline;
 }
 
+.next-target{
+    margin-top: 5rem;
+}
+.next-target-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.next-target-card{
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 2rem;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive */
 @media (max-width: 640px) {
     .nav {
@@ -402,10 +439,21 @@ iframe{
     .target-cards{
         flex-direction: column;
         gap: 2rem;
-        padding: 0;
     }
     .target-card{
-        padding: 2rem 1.5rem;
+        padding: 2rem 1rem;
     }
 
+
+    .next-target-card{
+        padding: 2rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .next-target{
+        padding: 1rem;
+    }
+    .current-target{
+        padding: 1rem;
+    }
 }
