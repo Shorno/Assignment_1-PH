@@ -237,6 +237,71 @@ iframe{
     border-radius: 16px;
 }
 
+.current-target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.target-text{
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.target-cards{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.target-card{
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.card-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+.target-lang{
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; /* 150% */
+}
+
+.text-link{
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
     .nav {
@@ -332,6 +397,15 @@ iframe{
         height: 200px;
         border: none;
         border-radius: 8px;
+    }
+
+    .target-cards{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+    }
+    .target-card{
+        padding: 2rem 1.5rem;
     }
 
 }
