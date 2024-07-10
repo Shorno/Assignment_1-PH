@@ -535,17 +535,27 @@ footer{
         border-radius: 8px;
     }
 
+
+
     .target-cards {
         flex-direction: column;
         gap: 2rem;
     }
 
     .target-card {
-        padding: 2rem 1rem;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 16px;
+        justify-content: center;
+        gap: 1rem;
     }
 
 
-    .next-target-card {
+
+    .next-target-card
+    {
         padding: 2rem 1.5rem;
         display: flex;
         flex-direction: column;
@@ -558,6 +568,11 @@ footer{
     .current-target {
         padding: 1rem;
     }
+    .target-text{
+        width: 80%;
+    }
+
+
     .support-text{
         display: flex;
         width: 100%;
@@ -600,7 +615,11 @@ footer{
         gap: 1rem;
     }
     footer{
+        margin-top: 2rem;
+        border-radius: 0;
         padding: 1rem;
-        margin-bottom: 1rem;
+    }
+    .footer-header{
+        font-size: 16px;
     }
 }
