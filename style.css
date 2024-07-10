@@ -453,6 +453,14 @@ footer{
     font-weight: 600;
     line-height: normal;
 }
+
+
+
+
+
+
+
+
 /* Responsive */
 @media (max-width: 640px) {
     .nav {
@@ -619,6 +627,9 @@ footer{
     }
     .support{
         padding: 1rem;
+    }
+    .support-heading{
+        font-size: 24px;
     }
     .support-container{
         padding: 2rem;
